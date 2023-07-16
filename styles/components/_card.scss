@@ -1,0 +1,54 @@
+.container {
+  background-color: #000;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 20px;
+  width: 95%;
+  max-width: 450px;
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  input {
+    outline: none;
+    padding: 10px;
+
+    border: none;
+    border-radius: 15px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 70px);
+    align-items: center;
+    font-size: 15px;
+  }
+
+  h2 {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  .temp {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+  }
+
+  .small-container {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    p {
+      text-transform: capitalize;
+      color: #fff;
+      margin-left: 20px;
+    }
+  }
+}
+.umidade {
+  color: #fff;
+  margin-top: 10px;
+}
